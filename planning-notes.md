@@ -31,33 +31,34 @@ As a user
 
 6. Routes
 
-GET  /        (home)
-GET  /login   (login form)
-POST /login
-POST /logout
+- GET  /        (home)
+- GET  /login   (login form)
+- POST /login
+- POST /logout
 
-GET  /users/new          (show registration form)
-POST /users              (create user record)
-GET  /users/:id          (show profile)
-GET  /users/:id/requests (pull all requests for user)
+- GET  /users/new          (show registration form)
+- POST /users              (create user record)
+- GET  /users/:id          (show profile)
+- GET  /users/:id/requests (pull all requests for user)
 
-GET  /resources     (catalog)
-GET  /resources/:id (resource details)
-GET  /resources/new (show form to create resource/list book)
-POST /resources     (create resource record)
-PUT  /resources/:id (update / set status)
+- GET  /resources     (catalog)
+- GET  /resources/:id (resource details)
+- GET  /resources/new (show form to create resource/list book)
+- POST /resources     (create resource record)
+- PUT  /resources/:id (update / set status)
 
-GET  /requests/:id  (pull request by ID) 
-POST /requests      (create request record)
-PUT  /requests/:id  (update / mark completed)
+- GET  /requests/:id  (pull request by ID) 
+- POST /requests      (create request record)
+- PUT  /requests/:id  (update / mark completed)
 
 7. Wireframes
 
 
 ================
-Tuesday:     5p/    8p/ 9:30p video
-Wed/Thur/Fri 5p/    8p/ 9:30p slack as needed
-Saturday: 1:30p/ 4:30p/ 6:00p video
+- Meeting Times
+- Tuesday:     5p/    8p/ 9:30p video
+- Wed/Thur/Fri 5p/    8p/ 9:30p slack as needed
+- Saturday: 1:30p/ 4:30p/ 6:00p video
 
 - ERD (Johannes)
 - Wireframes (Cherie/Merwyn)
