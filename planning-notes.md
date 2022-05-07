@@ -30,26 +30,34 @@ As a user
 - requests: requester (userid), current_possessor (userid), resource, status (active/complete)
 
 6. Routes
+API Routes
 
+- POST /users              (create user record)
+- GET  /users/:id          (pull user record with id)
+- GET  /users/:id/requests (pull all requests for user)
+
+- GET  /resources     (pull all resources - add parameters to limit?)
+- GET  /resources/:id (pull resource details)
+- POST /resources     (create resource record)
+- PUT  /resources/:id (update resource record / set status)
+
+- GET  /requests/:id  (pull request by ID) 
+- POST /requests      (create request record)
+- PUT  /requests/:id  (update / mark completed)
+
+Other Routes
 - GET  /        (home)
 - GET  /login   (login form)
 - POST /login
 - POST /logout
 
 - GET  /users/new          (show registration form)
-- POST /users              (create user record)
 - GET  /users/:id          (show profile)
-- GET  /users/:id/requests (pull all requests for user)
 
 - GET  /resources     (catalog)
 - GET  /resources/:id (resource details)
 - GET  /resources/new (show form to create resource/list book)
-- POST /resources     (create resource record)
-- PUT  /resources/:id (update / set status)
 
-- GET  /requests/:id  (pull request by ID) 
-- POST /requests      (create request record)
-- PUT  /requests/:id  (update / mark completed)
 
 7. Wireframes
 
